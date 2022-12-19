@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogger-Cart</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="css/photod/logo.png" alt="logo">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="phones.html" class="header__link">Смартфоны</a>
+                        </li>
+                        <li>
+                            <a href="notebooks.html" class="header__link">Ноутбуки</a>
+                        </li>
+                        <li>
+                            <a href="plays.html" class="header__link">Приставки</a>
+                        </li>
+                        <li>
+                            <a href="audiosstems.html" class="header__link">Аудиосистемы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html" class="header__cart">
+                    <img src="svg/shopping-cart-free-icon-font.svg" alt="cart">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="main-container">
+        <div class="upper">
+            <div class="cartName">КОРЗИНА</div>
+            <div class="total_price">TOTAL PRICE: <span>6458 BYN</span></div>
+        </div>
+        <div class="products_container">
+            <div class="product">
+                <div class="product__photo">
+                    <img src="css/photod/IPhone.png" alt="iPhone">
+                </div>
+                <div class="product__name">
+                    <a href="#" class="product__link">Apple IPhone 13</a>
+                </div>
+                <div class="product__configuration">
+                    <span class="conf__element">ОЗУ: 4 ГБ</span>
+                    <span class="conf__element">ПЗУ: 32 ГБ</span>
+                    <span class="conf__element">ЦВЕТ КОРПУСА: ЧЁРНЫЙ</span>
+                </div>
+                <div class="product__cost">
+                    <span>ЦЕНА: 2500 BYN</span>
+                </div>
+                <div class="product_button_container">
+                    <div class="number" data-step="1" data-min="1" data-max="100">
+                        <input class="number-text" type="text" name="count" value="1">
+                        <a href="#" class="number-minus">−</a>
+                        <a href="#" class="number-plus">+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__photo" id="ZFlip">
+                    <img src="css/photod/p40pro.png" alt="iPhone" id="ZFlip">
+                </div>
+                <div class="product__name">
+                    <a href="#" class="product__link">Huawei P40 Pro</a>
+                </div>
+                <div class="product__configuration">
+                    <span class="conf__element">ОЗУ: 8 ГБ</span>
+                    <span class="conf__element">ПЗУ: 128 ГБ</span>
+                    <span class="conf__element">ЦВЕТ КОРПУСА: ЧЁРНЫЙ</span>
+                </div>
+                <div class="product__cost">
+                    <span>ЦЕНА: 1359 BYN</span>
+                </div>
+                <div class="product_button_container">
+                    <div class="number" data-step="1" data-min="1" data-max="100">
+                        <input class="number-text" type="text" name="count" value="1">
+                        <a href="#" class="number-minus">−</a>
+                        <a href="#" class="number-plus">+</a>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product__photo" id="ZFlip"> 
+                    <img src="css/photod/ZFlip.png" alt="ZFlip" id="ZFlip">
+                </div>
+                <div class="product__name">
+                    <a href="#" class="product__link">Samsung Z Flip3</a>
+                </div>
+                <div class="product__configuration">
+                    <span class="conf__element">ОЗУ: 4 ГБ</span>
+                    <span class="conf__element">ПЗУ: 64 ГБ</span>
+                    <span class="conf__element">ЦВЕТ КОРПУСА: ВАНИЛЬ</span>
+                </div>
+                <div class="product__cost">
+                    <span>ЦЕНА: 3599 BYN</span>
+                </div>
+                <div class="product_button_container">
+                    <div class="number" data-step="1" data-min="1" data-max="100">
+                        <input class="number-text" type="text" name="count" value="1">
+                        <a href="#" class="number-minus">−</a>
+                        <a href="#" class="number-plus">+</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="zakaz_container">
+            <form action="zakaz.html">
+                <button class="zakaz_button">Оформить заказ</button>
+            </form>
+        </div>
+    </div>
+      <link rel="stylesheet" href="./css/footer.css">
+      <footer class="footer">
+        <div class="main-foot">
+            <div class="aboutUs">
+                <span class="Zag">О нас</span>
+                <span>“Dogger.by - интернет-магазин специализирующийся на продаже видео- и аудиотехники. Наша компания более 7 лет успешно развивается  на рынке, и предоставляет нашим клиентам отличный сервис.”</span>
+            </div>
+            <div class="worktime">
+                <span class="Zag">Время работы</span>
+                <span class="frel">Пн 9:00 - 21:00</span>
+                <span>Вт 9:00 - 21:00</span>
+                <span>Ср 9:00 - 21:00</span>
+                <span>Чт 9:00 - 21:00</span>
+                <span>Пт 9:00 - 21:00</span>
+            </div>
+            <div class="ourMap">
+                <span class="Zag">Наше расположение</span>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2487984026343!2d27.555725251306523!3d53.891781679999234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfdb7a8b492b%3A0x349ec78be1c338de!2z0YPQu9C40YbQsCDQodCy0LXRgNC00LvQvtCy0LAgMTMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1652190215334!5m2!1sru!2sby" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="container-foot">
+            <span>POWERED BY DANIIL YAZVINSKI</span>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/cart.js"></script>
+    <script src="JS/menu.js"></script>
+</body>
+</html>

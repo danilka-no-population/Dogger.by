@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogger Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400%7COswald:400"  rel="stylesheet"/>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="css/photod/logo.png" alt="logo">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="phones.html" class="header__link">Смартфоны</a>
+                        </li>
+                        <li>
+                            <a href="notebooks.html" class="header__link">Ноутбуки</a>
+                        </li>
+                        <li>
+                            <a href="plays.html" class="header__link">Приставки</a>
+                        </li>
+                        <li>
+                            <a href="audiosstems.html" class="header__link">Аудиосистемы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html" class="header__cart">
+                    <img src="svg/shopping-cart-free-icon-font.svg" alt="cart">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="vid">
+            <video autoplay src="./video/videoplayback_1.mp4" loop></video>
+        </div>
+        <div class="products">
+            <article class="card">
+                <a href="phones.html" class="product__link"><img src="css/photod/af.png" alt="Phones" class="card__img"></a>
+                <h2 class="card__name"><a href="phones.html" class="product__link">Смартфоны</a></h2>
+            </article>
+            <article class="card">
+                <a href="notebooks.html" class="product__link"><img src="css/photod/NotePred.png" alt="Phones" class="card__img"></a>    
+                <h2 class="card__name"><a href="notebooks.html" class="product__link">Ноутбуки</a></h2>
+            </article>
+            <article class="card">
+                <a href="plays.html" class="product__link"><img src="css/photod/PristavkiPred.png" alt="Phones" class="card__img"></a>               
+                <h2 class="card__name"><a href="plays.html" class="product__link">Приставки</a></h2>
+            </article>
+            <article class="card">
+                <a href="audiosstems.html" class="product__link"><img src="css/photod/AudioPred.png" alt="Phones" class="card__img"></a>           
+                <h2 class="card__name"><a href="audiosstems.html" class="product__link">Аудиотехника</a></h2>
+            </article>
+        </div>
+        <div class="cityCheck">
+            <div class="cityPred">Выберите свой город:</div>
+            <select name="city" class="select">
+                <option value="Минский район" selected>Минск</option>
+                <option value="Витебский район">Витебск</option>
+                <option value="Гродненский район">Гродно</option>
+            </select>
+        </div>
+        <div class="aboutShop">
+            <div class="aboutContainer">
+                <div class="about__img">
+                    <img src="svg/call-history-free-icon-font.svg" alt="call">
+                </div>
+                <div class="about__description">
+                    Поддержка 24/7
+                </div>
+            </div>
+            <div class="aboutContainer">
+                <div class="about__img">
+                    <img src="svg/settings-free-icon-font.svg" alt="reliably">
+                </div>
+                <div class="about__description">
+                    Надёжно
+                </div>
+            </div>
+            <div class="aboutContainer">
+                <div class="about__img">
+                    <img src="svg/marker-free-icon-font.svg" alt="pickup">
+                </div>
+                <div class="about__description">
+                    Самовывоз
+                </div>
+            </div>
+            <div class="aboutContainer">
+                <div class="about__img">
+                    <img src="svg/heart-free-icon-font.svg" alt="withlove">
+                </div>
+                <div class="about__description">
+                    With love
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./css/footer.css">
+    <footer class="footer">
+        <div class="main-foot">
+            <div class="aboutUs">
+                <span class="Zag">О нас</span>
+                <span>“Dogger.by - интернет-магазин специализирующийся на продаже видео- и аудиотехники. Наша компания более 7 лет успешно развивается  на рынке, и предоставляет нашим клиентам отличный сервис.”</span>
+            </div>
+            <div class="worktime">
+                <span class="Zag">Время работы</span>
+                <span class="frel">Пн 9:00 - 21:00</span>
+                <span>Вт 9:00 - 21:00</span>
+                <span>Ср 9:00 - 21:00</span>
+                <span>Чт 9:00 - 21:00</span>
+                <span>Пт 9:00 - 21:00</span>
+            </div>
+            <div class="ourMap">
+                <span class="Zag">Наше расположение</span>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2487984026343!2d27.555725251306523!3d53.891781679999234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfdb7a8b492b%3A0x349ec78be1c338de!2z0YPQu9C40YbQsCDQodCy0LXRgNC00LvQvtCy0LAgMTMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1652190215334!5m2!1sru!2sby" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="container-foot">
+            <span>POWERED BY DANIIL YAZVINSKI</span>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="JS/index.js"></script>
+  <script src="JS/menu.js"></script>
+</body>
+</html>

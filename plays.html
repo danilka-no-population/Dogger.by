@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogger-Phones</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="css/photod/logo.png" alt="logo" style="margin-bottom: 3px;">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="phones.html" class="header__link">Смартфоны</a>
+                        </li>
+                        <li>
+                            <a href="notebooks.html" class="header__link">Ноутбуки</a>
+                        </li>
+                        <li>
+                            <a href="plays.html" class="header__link active">Приставки</a>
+                        </li>
+                        <li>
+                            <a href="audiosstems.html" class="header__link">Аудиосистемы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html" class="header__cart">
+                    <img src="svg/shopping-cart-free-icon-font.svg" alt="cart">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div id="vid">    
+        <video autoplay src="./video/videoplayback.mp4" width="100%" loop></video>
+    </div>
+    <div id="products_zag">
+        <h3>Приставки</h3>
+    </div>
+    <div class="products" id="plays1">
+    </div>
+    <div class="products" id="plays2">
+        <script src="JS/renderPlays.js"></script>
+    </div>
+    <div class="perelist">
+        <button class="spis" onclick="Show1()" style="width: 100px;">1</button>
+        <button class="spis" onclick="Show2()" style="width: 100px;">2</button>
+    </div>
+    <div id="modal" class="modal">
+        <div class="content-modal">
+            <div class="closing">
+                <span class="close">&times;</span>
+            </div>
+            <div class="zagolovok-modalki">
+                <p class="zag-modalki">Товар добавлен в корзину!</p>
+            </div>
+            <div class="knopka-modalki">
+                <form action="cart.html"><button>Перейти в корзину</button></form>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./css/footer.css">
+<footer class="footer">
+    <div class="main-foot">
+        <div class="aboutUs">
+            <span class="Zag">О нас</span>
+            <span>“Dogger.by - интернет-магазин специализирующийся на продаже видео- и аудиотехники. Наша компания более 7 лет успешно развивается  на рынке, и предоставляет нашим клиентам отличный сервис.”</span>
+        </div>
+        <div class="worktime">
+            <span class="Zag">Время работы</span>
+            <span class="frel">Пн 9:00 - 21:00</span>
+            <span>Вт 9:00 - 21:00</span>
+            <span>Ср 9:00 - 21:00</span>
+            <span>Чт 9:00 - 21:00</span>
+            <span>Пт 9:00 - 21:00</span>
+        </div>
+        <div class="ourMap">
+            <span class="Zag">Наше расположение</span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2487984026343!2d27.555725251306523!3d53.891781679999234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfdb7a8b492b%3A0x349ec78be1c338de!2z0YPQu9C40YbQsCDQodCy0LXRgNC00LvQvtCy0LAgMTMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1652190215334!5m2!1sru!2sby" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="container-foot">
+        <span>POWERED BY DANIIL YAZVINSKI</span>
+    </div>
+</footer>
+<link rel="stylesheet" href="css/navigationBar.css">
+<link rel="stylesheet" href="css/prd.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="JS/phones.js"></script>
+<script src="JS/menu.js"></script>
+</body>
+</html>

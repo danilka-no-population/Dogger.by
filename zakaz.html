@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogger-Cart</title>
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header__burger">
+                    <span></span>
+                </div>
+                <a href="index.html" class="header__logo">
+                    <img src="css/photod/logo.png" alt="logo">
+                </a>
+                <nav class="header__menu">
+                    <ul class="header__list">
+                        <li>
+                            <a href="phones.html" class="header__link">Смартфоны</a>
+                        </li>
+                        <li>
+                            <a href="notebooks.html" class="header__link">Ноутбуки</a>
+                        </li>
+                        <li>
+                            <a href="plays.html" class="header__link">Приставки</a>
+                        </li>
+                        <li>
+                            <a href="audiosstems.html" class="header__link">Аудиосистемы</a>
+                        </li>
+                    </ul>
+                </nav>
+                <a href="cart.html" class="header__cart">
+                    <img src="svg/shopping-cart-free-icon-font.svg" alt="cart">
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="wrapper">
+        <div class="form">
+            <form action="#" id="form" class="form__body" onsubmit="return false;">
+                <h1 class="form__title">Оформление закaза</h1>
+                <div class="form__item">
+                    <label for="forName" class="form__label">ФИО:</label>
+                    <input id="formName" type="text" name="name" placeholder="Иванов Иван Иванович" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formEmail" class="form__label">E-mail:</label>
+                    <input type="text" name="email" placeholder="example@gmail.com" id="formEmail" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formBankCard" class="form__label">Номер банковской карты:</label>
+                    <input type="text" name="card" maxlength="16" placeholder="XXXX XXXX XXXX XXXX" id="formBankCard" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formBankCardName" class="form__label">Имя на карте:</label>
+                    <input type="text" name="cardname" placeholder="Имя на карте" id="formBankCardName" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formBankCardDeistv" class="form__label">Срок действия:</label>
+                    <select name="month" id="month" class="select">
+                        <option value="01">01</option>
+                        <option value="01">02</option>
+                        <option value="01">03</option>
+                        <option value="01">04</option>
+                        <option value="01">05</option>
+                        <option value="01">06</option>
+                        <option value="01">07</option>
+                        <option value="01">08</option>
+                        <option value="01">09</option>
+                        <option value="01">10</option>
+                        <option value="01">11</option>
+                        <option value="01">12</option>
+                    </select>
+                    <input type="text" name="carddeistv" maxlength="2" placeholder="Год" id="formBankCardYear" class="form__input">
+                </div>
+                <div class="form__item">
+                    <label for="formBankCardCVV" class="form__label">CVV:</label>
+                    <input type="text" name="cardcvv" maxlength="3" placeholder="XXX" id="formBankCardCVV" class="form__input">
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Город:</div>
+                    <select name="city" class="select">
+                        <option value="Минский район" selected>Минск</option>
+                        <option value="Витебский район">Витебск</option>
+                        <option value="Гродненский район">Гродно</option>
+                    </select>
+                </div>
+                <div class="form__item">
+                    <div class="form__label">Доставка или самовывоз?</div>
+                    <div class="options">
+                        <div class="options__item">
+                            <input checked type="radio" id="formDelivery" value="delivery" name="poluchenie" class="options__input">
+                            <label for="formDelivery" class="options__label">Доставка</label>
+                        </div>
+                        <div class="options__item">
+                            <input type="radio" id="formPickup" value="pickup" name="poluchenie" class="options__input">
+                            <label for="formPickup" class="options__label">Самовывоз</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__item">
+                    <label for="formMessage" class="form__label">Дополнительные пожелания:</label>
+                    <textarea name="message" id="formMessage" class="form__input"></textarea>
+                </div>
+                <div class="form__item">
+                    <div class="checkbox">
+                        <input id="formAgreement" checked type="checkbox" name="agreement" class="checkbox__input">
+                        <label for="formAgreement" class="checkbox__label"><span>Я согласен на обработку персональных данных в соответствии с правилами</span></label>
+                    </div>
+                </div>
+                <button class="form__button" type="submit" id="openModal">Подтвердить заказ</button>
+            </form>
+            <div id="modal" class="modal">
+                <div class="content-modal">
+                    <div class="closing">
+                        <span class="close">&times;</span>
+                    </div>
+                    <div class="zagolovok-modalki">
+                        <p class="zag-modalki">Покупка оформлена!</p>
+                    </div>
+                    <div class="text-modalki">
+                        <p class="txt-modalki">Вы оформили покупку. В течение 30 минут вам на почту придёт электронный чек и дополнительная информация о совершённой покупке. А также в течение ближайшего времени с вами свяжется наш консультант для подтверждения покупки</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <link rel="stylesheet" href="./css/footer.css">
+    <footer class="footer">
+        <div class="main-foot">
+            <div class="aboutUs">
+                <span class="Zag">О нас</span>
+                <span>“Dogger.by - интернет-магазин специализирующийся на продаже видео- и аудиотехники. Наша компания более 7 лет успешно развивается  на рынке, и предоставляет нашим клиентам отличный сервис.”</span>
+            </div>
+            <div class="worktime">
+                <span class="Zag">Время работы</span>
+                <span class="frel">Пн 9:00 - 21:00</span>
+                <span>Вт 9:00 - 21:00</span>
+                <span>Ср 9:00 - 21:00</span>
+                <span>Чт 9:00 - 21:00</span>
+                <span>Пт 9:00 - 21:00</span>
+            </div>
+            <div class="ourMap">
+                <span class="Zag">Наше расположение</span>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2487984026343!2d27.555725251306523!3d53.891781679999234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcfdb7a8b492b%3A0x349ec78be1c338de!2z0YPQu9C40YbQsCDQodCy0LXRgNC00LvQvtCy0LAgMTMsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1652190215334!5m2!1sru!2sby" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="container-foot">
+            <span>POWERED BY DANIIL YAZVINSKI</span>
+        </div>
+    </footer>
+    <link rel="stylesheet" href="css/navigationBar.css">
+    <link rel="stylesheet" href="css/zakaz.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="JS/menu.js"></script>
+    <script src="JS/zakaz.js"></script>
+</body>
