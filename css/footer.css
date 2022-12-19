@@ -1,0 +1,161 @@
+.workTime{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    color: #787878;
+    flex: 0 0 auto;
+}
+.main-foot{
+    display: flex;
+    background-color: #333333;
+    max-width: 100vw;
+    padding-top: 2vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+    font-size: 18px;
+}
+.container-foot{
+    display: flex;
+    background-color: #333333;
+    max-width: 100vw;
+    height: 3vw;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #FF9C38;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+.worktime{
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    align-items: center;
+    background-color: #333333;
+}
+.ourMap{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 23vw;
+    min-width: 250px;
+    background-color: #333333;
+}
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23vw;
+    gap: 1vw;
+    background-color: #333333;
+}
+.frel{
+    margin-top: 1vw;
+}
+.worktime .Zag{
+    align-self: center;
+}
+.Zag{
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+iframe{
+    max-height: 200px;
+    max-width: 22vw;
+    min-width: 250px;
+}
+.footer span{
+    background-color: #333333;
+}
+.footer iframe{
+    background-color: #333333;
+}
+@media screen and (max-device-width: 1024px) {
+    .ourMap{
+        width: 100vw;
+        margin: 0 auto;
+        margin-top: -6vw;
+    }
+    .ourMap .Zag{
+        margin: 0 auto;
+    }
+    .aboutUs{
+        width: 30vw;
+    }
+    .aboutUs .Zag{
+        align-self: center;
+    }
+    .worktime{
+        width: 30vw;
+    }
+    .worktime .Zag{
+        margin: 0 auto;
+    }
+    iframe{
+        margin: 0  auto;
+        max-width: 40vw;
+    }
+    .container-foot{
+        margin-top: -1vw;
+        padding-top: 3vw;
+    }
+}
+@media screen and (max-device-width: 600px) {
+    .worktime{
+        width: 40vw;
+    }
+    .aboutUs{
+        width: 40vw;
+    }
+    .Zag{
+        align-self: center;
+    }
+    .aboutUs span{
+        font-size: 16px;
+    }
+    .aboutUs .Zag{
+        font-size: 24px;
+    }
+}
+@media screen and (max-device-width: 768px) {
+    footer{
+        height: auto;
+    }
+}
+  @media screen and (max-device-width: 425px) {
+    footer{
+        text-align: center;
+        height: auto;
+        width: 100%;
+    }
+    .main-foot{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .aboutUs{
+        width: 70vw;
+    }
+    .Zag{
+        margin: 0 auto;
+    }
+    .worktime{
+        width: 70vw;
+    }
+    .container-foot{
+        margin-top: 7vw;
+        padding-bottom: 7vw;
+    }
+  }
+  @media screen and (max-device-width: 375px) {
+    footer{
+        text-align: center;
+        height: auto;
+    }
+}

@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #000;
+    margin-top: 70px;
+}
+.form{
+    max-width: 550px;
+    margin: 0px auto;
+    color: white;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    max-width: 80vw;
+  }
+  .form__title{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 2vw 0px 2vw 0px; 
+    text-align: center;
+  }
+  .form__item{
+    margin: 0px 0px 20px 0px;
+    min-width: 60vw;
+    padding: 0px 3vw 0vw 3vw;
+  }
+  .form__label{
+    font-size: 18px;
+    display: block;
+    margin: 0px 0px 10px 0px;
+  }
+  .form__input{
+    height: 50px;
+    padding: 0px 20px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+  }
+  textarea.form__input{
+    min-height: 120px;
+    resize: vertical;
+    padding: 20px;
+    max-width: 80vw;
+  }
+  .options{
+    padding: 10px 0px 0px 0px;
+  }
+  .options__item{
+    margin: 0px 0px 10px 0px;
+  }
+  .options__input{
+    display: none;
+  }
+  .options__label{
+    display: inline-flex;
+    font-size: 16px;
+    line-height: 140%;
+    align-items: center;
+    position: relative;
+  }
+  .options__label::before{
+    content: "";
+    align-self: flex-start;
+    flex: 0 0 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0px 10px 0px 0px;
+  }
+  .options__label::after{
+    transition: transform 0.5s ease 0s;
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 16px;
+    height: 16px;
+    background-color: #FF9C38;
+    border-radius: 50%;
+    transform: scale(0);
+  }
+  .options__input:checked + .options__label::after{
+    transform: scale(1);
+  }
+  .select{
+    height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0px 20px;
+    max-width: 30vw;
+    min-width: 200px;
+  }
+  .checkbox__label{
+    font-size: 16px;
+    line-height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkbox{
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    padding: 0px 1vw 2vw 1vw;
+  }
+
+
+  .form__button{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+    background-color: #FF9C38;
+    color: #000;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 3px 0 #663e17;
+    transition: background-color 0.5s ease 0s;
+    position: relative;
+    top: 0;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .form__button:hover{
+    background-color: #cb7d2e;
+  }
+  .form__button:active{
+    top: 3px;
+    box-shadow: 0 2px 0 #663e17;
+  }
+  #month{
+    min-width: 100px;
+    max-width: 10vw;
+  }
+  #formBankCardYear{
+    max-height: fit-content;
+    min-width: 100px;
+    max-width: 10vw;
+  }
+  #formBankCardCVV{
+    max-width: 10vw;
+  }
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.content-modal {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    padding: 1vh;
+    border: 7px solid #ff9c38;
+}
+.content-modal p{
+    background-color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.content-modal span{
+    background-color: white;
+}
+.content-modal button:hover{
+    background-color: black;
+    color: white;
+}
+.closing{
+    align-self: flex-end;
+}
+.knopka-modalki{
+    background-color: white;
+}
+.knopka-modalki button{
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+.close {
+    color: rgb(105, 105, 105);
+    
+    background-color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.text-modalki p{
+    color: #000;
+    font-size: 20px;
+    margin: 1vw;
+}
+.zagolovok-modalki{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 1vw 1vw 1vw 1vw;
+}
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+  @media screen and (max-device-width:768px){
+    .form__title{
+        font-size: 26px;
+    }
+    input{
+        margin-right: 2vw;
+    }
+    .form{
+        padding: 0 auto;
+    }
+  }
+  @media screen and (max-device-width:1024px){
+    .content-modal{
+        width: 60%;
+    }
+  }
+  @media screen and (max-device-width:600px){
+    .text-modalki p{
+        font-size: 16px;
+    }
+    .zagolovok-modalki{
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-device-width:425px){
+    .form__title{
+        margin-bottom: 10vw;
+    }
+    .content-modal{
+        width: 80%;
+    }
+    .text-modalki p{
+        margin: 3vw;
+    }
+    .zagolovok-modalki{
+        margin-bottom: 3vw;
+    }
+  }

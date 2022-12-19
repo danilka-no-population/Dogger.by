@@ -1,0 +1,98 @@
+[
+    {
+        "img" : "css/photod/ps5new.png",
+        "name" : "PlayStation 5ST",
+        "opisanie" : "ПЗУ 825 ГБ, 4К UHD(2160p), AMD RDNA 2, ОЗУ 16 ГБ, аккумулятор 1560 МАч, Вес 2000г",
+        "price" : "2295 BYN"
+    },
+    {
+        "img" : "css/photod/xboxnew.png",
+        "name" : "Xbox One PlayIn",
+        "opisanie" : "ПЗУ 1000 ГБ, 4К UHD(2160p), AMD Jaguar, ОЗУ 12 ГБ, аккумулятор 2500 мАч, Вес 3000г",
+        "price" : "1799 BYN"
+    },
+    {
+        "img" : "css/photod/ninnew.png",
+        "name" : "Nintendo Switch",
+        "opisanie" : "ПЗУ 64 ГБ, FullHD(1280p), Nvidia Tegra, ОЗУ 12 ГБ, аккумулятор 4310 мАч, Вес 420г",
+        "price" : "999 BYN"
+    },
+    {
+        "img" : "css/photod/ps4new.png",
+        "name" : "PlayStation 4WY",
+        "opisanie" : "ПЗУ 1000 ГБ, 2K QHD(1440p), AMD Jaguar, ОЗУ 8 ГБ, аккумулятор 1600 мАч, Вес 3300г",
+        "price" : "1299 BYN"
+    },
+    {
+        "img" : "css/photod/xboxnew.png",
+        "name" : "Xbox One PlayIn",
+        "opisanie" : "ПЗУ 1000 ГБ, 4К UHD(2160p), AMD Jaguar, ОЗУ 12 ГБ, аккумулятор 2500 мАч, Вес 3000г",
+        "price" : "1799 BYN"
+    },
+    {
+        "img" : "css/photod/ps5new.png",
+        "name" : "PlayStation 5ST",
+        "opisanie" : "ПЗУ 825 ГБ, 4К UHD(2160p), AMD RDNA 2, ОЗУ 16 ГБ, аккумулятор 1560 МАч, Вес 2000г",
+        "price" : "2295 BYN"
+    },
+    {
+        "img" : "css/photod/ps4new.png",
+        "name" : "PlayStation 4WY",
+        "opisanie" : "ПЗУ 1000 ГБ, 2K QHD(1440p), AMD Jaguar, ОЗУ 8 ГБ, аккумулятор 1600 мАч, Вес 3300г",
+        "price" : "1299 BYN"
+    },
+    {
+        "img" : "css/photod/xboxnew.png",
+        "name" : "Xbox One PlayIn",
+        "opisanie" : "ПЗУ 1000 ГБ, 4К UHD(2160p), AMD Jaguar, ОЗУ 12 ГБ, аккумулятор 2500 мАч, Вес 3000г",
+        "price" : "1799 BYN"
+    },
+    {
+        "img" : "css/photod/ps5new.png",
+        "name" : "PlayStation 5ST",
+        "opisanie" : "ПЗУ 825 ГБ, 4К UHD(2160p), AMD RDNA 2, ОЗУ 16 ГБ, аккумулятор 1560 МАч, Вес 2000г",
+        "price" : "2295 BYN"
+    },
+    {
+        "img" : "css/photod/xboxnew.png",
+        "name" : "Xbox One PlayIn",
+        "opisanie" : "ПЗУ 1000 ГБ, 4К UHD(2160p), AMD Jaguar, ОЗУ 12 ГБ, аккумулятор 2500 мАч, Вес 3000г",
+        "price" : "1799 BYN"
+    },
+    {
+        "img" : "css/photod/ninnew.png",
+        "name" : "Nintendo Switch",
+        "opisanie" : "ПЗУ 64 ГБ, FullHD(1280p), Nvidia Tegra, ОЗУ 12 ГБ, аккумулятор 4310 мАч, Вес 420г",
+        "price" : "999 BYN"
+    },
+    {
+        "img" : "css/photod/ps4new.png",
+        "name" : "PlayStation 4WY",
+        "opisanie" : "ПЗУ 1000 ГБ, 2K QHD(1440p), AMD Jaguar, ОЗУ 8 ГБ, аккумулятор 1600 мАч, Вес 3300г",
+        "price" : "1299 BYN"
+    },
+    {
+        "img" : "css/photod/ps5new.png",
+        "name" : "PlayStation 5ST",
+        "opisanie" : "ПЗУ 825 ГБ, 4К UHD(2160p), AMD RDNA 2, ОЗУ 16 ГБ, аккумулятор 1560 МАч, Вес 2000г",
+        "price" : "2295 BYN"
+    },
+    {
+        "img" : "css/photod/xboxnew.png",
+        "name" : "Xbox One PlayIn",
+        "opisanie" : "ПЗУ 1000 ГБ, 4К UHD(2160p), AMD Jaguar, ОЗУ 12 ГБ, аккумулятор 2500 мАч, Вес 3000г",
+        "price" : "1799 BYN"
+    },
+    {
+        "img" : "css/photod/ninnew.png",
+        "name" : "Nintendo Switch",
+        "opisanie" : "ПЗУ 64 ГБ, FullHD(1280p), Nvidia Tegra, ОЗУ 12 ГБ, аккумулятор 4310 мАч, Вес 420г",
+        "price" : "999 BYN"
+    },
+    {
+        "img" : "css/photod/ps4new.png",
+        "name" : "PlayStation 4WY",
+        "opisanie" : "ПЗУ 1000 ГБ, 2K QHD(1440p), AMD Jaguar, ОЗУ 8 ГБ, аккумулятор 1600 мАч, Вес 3300г",
+        "price" : "1299 BYN"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "img" : "css/photod/macbookForProducts.png",
+        "name" : "Ноутбук Apple Macbook Air m2",
+        "opisanie" : "MacOS, экран 15.6 Tn+Film (1920x1080), Apple M2 Processor 5G, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce MX130, аккумулятор 365 Вт-ч, Вес 1200г",
+        "price" : "1359 BYN"
+    },
+    {
+        "img" : "css/photod/ideapadSlim3.png",
+        "name" : "Ноутбук Lenovo IdeaPad Slim3",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i3-1115G4, ОЗУ 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, аккумулятор 280 Вт-ч, Вес 1800г",
+        "price" : "1699 BYN"
+    },
+    {
+        "img" : "css/photod/envyx360.png",
+        "name" : "Ноутбук HP Envy X360 SM-5678",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i5-388L3, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce 1650Ti, аккумулятор 365 Вт-ч, Вес 1500г",
+        "price" : "1859 BYN"
+    },
+    {
+        "img" : "css/photod/vivobookx515.png",
+        "name" : "Ноутбук Asus VivoBook X515S",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core-i5 1135G7, ОЗУ 16 ГБ, HDD 1024 ГБ, Intel UHD Graphics LD, аккумулятор 365 Вт-ч, Вес 1750г",
+        "price" : "2099 BYN"
+    },
+    {
+        "img" : "css/photod/ideapadSlim3.png",
+        "name" : "Ноутбук Lenovo IdeaPad Slim3",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i3-1115G4, ОЗУ 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, аккумулятор 280 Вт-ч, Вес 1800г",
+        "price" : "1699 BYN"
+    },
+    {
+        "img" : "css/photod/vivobookx515.png",
+        "name" : "Ноутбук Asus VivoBook X515S",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core-i5 1135G7, ОЗУ 16 ГБ, HDD 1024 ГБ, Intel UHD Graphics LD, аккумулятор 365 Вт-ч, Вес 1750г",
+        "price" : "2099 BYN"
+    },
+    {
+        "img" : "css/photod/macbookForProducts.png",
+        "name" : "Ноутбук Apple Macbook Air m2",
+        "opisanie" : "MacOS, экран 15.6 Tn+Film (1920x1080), Apple M2 Processor 5G, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce MX130, аккумулятор 365 Вт-ч, Вес 1200г",
+        "price" : "1359 BYN"
+    },
+    {
+        "img" : "css/photod/envyx360.png",
+        "name" : "Ноутбук HP Envy X360 SM-5678",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i5-388L3, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce 1650Ti, аккумулятор 365 Вт-ч, Вес 1500г",
+        "price" : "1859 BYN"
+    },
+    {
+        "img" : "css/photod/macbookForProducts.png",
+        "name" : "Ноутбук Apple Macbook Air m2",
+        "opisanie" : "MacOS, экран 15.6 Tn+Film (1920x1080), Apple M2 Processor 5G, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce MX130, аккумулятор 365 Вт-ч, Вес 1200г",
+        "price" : "1359 BYN"
+    },
+    {
+        "img" : "css/photod/ideapadSlim3.png",
+        "name" : "Ноутбук Lenovo IdeaPad Slim3",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i3-1115G4, ОЗУ 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, аккумулятор 280 Вт-ч, Вес 1800г",
+        "price" : "1699 BYN"
+    },
+    {
+        "img" : "css/photod/envyx360.png",
+        "name" : "Ноутбук HP Envy X360 SM-5678",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i5-388L3, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce 1650Ti, аккумулятор 365 Вт-ч, Вес 1500г",
+        "price" : "1859 BYN"
+    },
+    {
+        "img" : "css/photod/vivobookx515.png",
+        "name" : "Ноутбук Asus VivoBook X515S",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core-i5 1135G7, ОЗУ 16 ГБ, HDD 1024 ГБ, Intel UHD Graphics LD, аккумулятор 365 Вт-ч, Вес 1750г",
+        "price" : "2099 BYN"
+    },
+    {
+        "img" : "css/photod/macbookForProducts.png",
+        "name" : "Ноутбук Apple Macbook Air m2",
+        "opisanie" : "MacOS, экран 15.6 Tn+Film (1920x1080), Apple M2 Processor 5G, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce MX130, аккумулятор 365 Вт-ч, Вес 1200г",
+        "price" : "1359 BYN"
+    },
+    {
+        "img" : "css/photod/ideapadSlim3.png",
+        "name" : "Ноутбук Lenovo IdeaPad Slim3",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i3-1115G4, ОЗУ 8 ГБ, SSD 256 ГБ, Intel UHD Graphics, аккумулятор 280 Вт-ч, Вес 1800г",
+        "price" : "1699 BYN"
+    },
+    {
+        "img" : "css/photod/envyx360.png",
+        "name" : "Ноутбук HP Envy X360 SM-5678",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core i5-388L3, ОЗУ 8 ГБ, HDD 512 ГБ, NVIDIA GeForce 1650Ti, аккумулятор 365 Вт-ч, Вес 1500г",
+        "price" : "1859 BYN"
+    },
+    {
+        "img" : "css/photod/vivobookx515.png",
+        "name" : "Ноутбук Asus VivoBook X515S",
+        "opisanie" : "Windows, экран 15.6 Tn+Film (1920x1080), Intel Core-i5 1135G7, ОЗУ 16 ГБ, HDD 1024 ГБ, Intel UHD Graphics LD, аккумулятор 365 Вт-ч, Вес 1750г",
+        "price" : "2099 BYN"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "img" : "css/photod/siaomi.png",
+        "name" : "Смартфон Huawei P40 Pro G",
+        "opisanie" : "Android, экран 6.58 OLED (1200x2640), HiSilicon Kirin 9, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 50 Мп, аккумулятор 4200 мАч, 2 SIM",
+        "price" : "1359 BYN"
+    }, 
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    },
+    {
+        "img" : "css/photod/shlaomiforproducts.png",
+        "name" : "Смартфон Xiaomi 11 Lite 5G",
+        "opisanie" : "Android, экран 6.55 OLED (1080x2400), Snapdragon 778, ОЗУ 8 ГБ, флэш-память 128 ГБ, камера 64 Мп, аккумулятор 4250 мАч, 2 SIM",
+        "price" : "2159 BYN"
+    }, 
+    {
+        "img" : "css/photod/zflipforproducts.png",
+        "name" : "Смартфон Samsung Z Flip3",
+        "opisanie" : "Android, экран 6.70 OLED (1080x2640), Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM",
+        "price" : "3599 BYN"
+    },
+    {
+        "img" : "css/photod/siaomi.png",
+        "name" : "Смартфон Huawei P40 Pro G",
+        "opisanie" : "Android, экран 6.58 OLED (1200x2640), HiSilicon Kirin 9, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 50 Мп, аккумулятор 4200 мАч, 2 SIM",
+        "price" : "1359 BYN"
+    }, 
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    },
+    {
+        "img" : "css/photod/siaomi.png",
+        "name" : "Смартфон Huawei P40 Pro G",
+        "opisanie" : "Android, экран 6.58 OLED (1200x2640), HiSilicon Kirin 9, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 50 Мп, аккумулятор 4200 мАч, 2 SIM",
+        "price" : "1359 BYN"
+    }, 
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    },
+    {
+        "img" : "css/photod/siaomi.png",
+        "name" : "Смартфон Huawei P40 Pro G",
+        "opisanie" : "Android, экран 6.58 OLED (1200x2640), HiSilicon Kirin 9, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 50 Мп, аккумулятор 4200 мАч, 2 SIM",
+        "price" : "1359 BYN"
+    }, 
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    },
+    {
+        "img" : "css/photod/siaomi.png",
+        "name" : "Смартфон Huawei P40 Pro G",
+        "opisanie" : "Android, экран 6.58 OLED (1200x2640), HiSilicon Kirin 9, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 50 Мп, аккумулятор 4200 мАч, 2 SIM",
+        "price" : "1359 BYN"
+    }, 
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    },
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    }, 
+    {
+        "img" : "css/photod/shlaomiforproducts.png",
+        "name" : "Смартфон Xiaomi 11 Lite 5G",
+        "opisanie" : "Android, экран 6.55 OLED (1080x2400), Snapdragon 778, ОЗУ 8 ГБ, флэш-память 128 ГБ, камера 64 Мп, аккумулятор 4250 мАч, 2 SIM",
+        "price" : "2159 BYN"
+    },
+    {
+        "img" : "css/photod/zflipforproducts.png",
+        "name" : "Смартфон Samsung Z Flip3",
+        "opisanie" : "Android, экран 6.70 OLED (1080x2640), Snapdragon 888, ОЗУ 8 ГБ, флэш-память 256 ГБ, камера 12 Мп, аккумулятор 3300 мАч, 1 SIM",
+        "price" : "3599 BYN"
+    }, 
+    {
+        "img" : "css/photod/iphoneforproducts.png",
+        "name" : "Смартфон Apple iPhone 13",
+        "opisanie" : "Apple iOS, экран 6.10 OLED (1170x2532), Apple A15 Bionic, ОЗУ 4 ГБ, флэш-память 128 ГБ, камера 12 Мп, аккумулятор 3200 мАч, 1 SIM",
+        "price" : "2799 BYN"
+    }
+]

@@ -1,0 +1,923 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+    margin-top: 50px;
+}
+.nameOfTovar{
+    display: flex;
+    color: aliceblue;
+    width: 100%;
+    margin-top: 6vw;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+.nameOfTovar p{
+    margin: 0 auto;
+    font-size: 48px;
+    color: #FF9C38;
+    letter-spacing: 1px;
+}
+.main-container{
+    display: flex;
+    color: aliceblue;
+    margin-top: 4em;
+    justify-content: center;
+    width: 70vw;
+    margin: 4em auto;
+    gap: 3vw;
+}
+.container{
+    display: flex;
+    color: aliceblue;
+}
+.tovar_photo img{
+    max-height: 100%;
+}
+.tovar_photo{
+    display: flex;
+    max-width: 43vw;
+    max-height: 43vw;
+}
+.tovar_configuration button{
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 82px;
+    height: 29px;
+}
+.buttons_color button{
+    font-size: 14px;
+}
+.ozu, .pzu, .color{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.name_ozu, .name_pzu, .name_color{
+    color: #FF9C38;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+button.active, .ozu_button:hover, .pzu_button:hover, .color_button:hover{
+    background-color: #FF9C38;
+    color: black;
+    border: none;
+}
+.buttons_ozu, .buttons_pzu, .buttons_color{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.buttons_of_check a:focus{
+    color: #FF9C38;
+    text-decoration: underline;
+}
+.cost{
+    color: #FF9C38;
+    font-size: 28px;
+    font-weight: 650;
+    letter-spacing: 4px;
+    margin-top: 3vw;
+}
+.tovar_configuration{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.cart{
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    width: 230px;
+    height: 55px;
+    border-radius: 5px;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-top: 3vw;
+    justify-self: center;
+}
+.container-cart{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.buttons_of_check{
+    display: flex;
+    margin-top: 7em;
+    width: 100%;
+    justify-content: center;
+    gap: 116px;
+}
+.buttons_of_check a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+.container-table{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 5em;
+}
+.tableOfCharacterics{
+    border: 1px solid white;
+    max-width: 1180px;
+}
+.tabl{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 70%;
+    font-size: 24px;
+    font-weight: bold;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    height: 106px;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.zag{
+    align-self: center;
+    background-color: #333333;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 78px;
+}
+.foot{
+    margin-top: 5em;
+}
+.developer{
+    border: 1px solid white;
+    background-color: #333333;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    margin-top: 2.5em;
+}
+.developer2{
+    border: 1px solid white;
+    background-color: #333333;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: bold;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    margin-top: 1em;
+}
+.developer2 p{
+    background-color: #333333;
+    padding-left: 2em;
+    padding-right: 2em;
+    letter-spacing: 1px;
+}
+.developer p{
+    background-color: #333333;
+    padding-left: 2em;
+    padding-right: 2em;
+    letter-spacing: 1px;
+}
+.kolvo{
+    margin: 0 auto;
+    background-color: #FF9C38;
+    width: 400px;
+    height: 55px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+.kolvo a{
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #FF9C38;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    color: #787878;
+    flex: 0 0 auto;
+}
+.main-foot{
+    display: flex;
+    background-color: #333333;
+    max-width: 100vw;
+    padding-top: 2vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10vw;
+    font-size: 18px;
+}
+.container-foot{
+    display: flex;
+    background-color: #333333;
+    max-width: 100vw;
+    height: 3vw;
+    font-size: 16px;
+    letter-spacing: 5px;
+    color: #FF9C38;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1vw;
+}
+.worktime{
+    display: flex;
+    flex-direction: column;
+    width: 23vw;
+    align-items: center;
+    background-color: #333333;
+}
+.ourMap{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 23vw;
+    min-width: 250px;
+    background-color: #333333;
+}
+
+.frel{
+    margin-top: 1vw;
+}
+.worktime .Zag{
+    align-self: center;
+}
+.aboutUs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23vw;
+    gap: 1vw;
+    background-color: #333333;
+}
+.Zag{
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+iframe{
+    max-height: 200px;
+    max-width: 22vw;
+    min-width: 250px;
+}
+.footer span{
+    background-color: #333333;
+}
+.footer iframe{
+    background-color: #333333;
+}
+.fotorama__thumb-border{
+    opacity: 70%;
+    border-color: #ff9c38;
+}
+
+.fotorama__video iframe{
+    min-height: 18vw;
+    max-width: 100vw;
+    min-width: 350px;
+    margin-top: 1vw;
+}
+.tabs-head .tab{
+    cursor: pointer;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+}
+.tabs-head .tab:hover{
+    color: #FF9C38;
+    text-decoration: underline;
+}
+.tabs-head .tab.active{
+    color: #FF9C38;
+    text-decoration: underline;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.content-modal {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #888;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s;
+    padding: 1vh;
+    border: 7px solid #ff9c38;
+}
+.content-modal p{
+    background-color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.content-modal button{
+    background-color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 0.9vh;
+    margin-top: 2vh;
+    margin-left: 20vh;
+}
+.content-modal span{
+    background-color: white;
+}
+.content-modal button:hover{
+    background-color: black;
+    color: white;
+}
+.closing{
+    align-self: flex-end;
+}
+.knopka-modalki{
+    background-color: white;
+}
+.knopka-modalki button{
+    margin: 0 auto;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+form{
+    background-color: white;
+}
+.tabs-body{
+    margin-bottom: 3vw;
+}
+.close {
+    color: rgb(105, 105, 105);
+    
+    background-color: white;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+  }
+  
+  @keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+  }
+
+@media screen and (min-device-width: 1920px) {
+    .fotorama__video iframe{
+        min-height: 13vw;
+        max-width: 100vw;
+        min-width: 10vw;
+        margin-top: 1vw;
+    }
+}
+@media screen and (max-device-width: 1024px) {
+    .tovar{
+        height: 210px;
+        width: 60%;
+    }
+    .ourMap{
+        width: 100vw;
+        margin: 0 auto;
+        margin-top: -6vw;
+    }
+    body{
+        margin-top: 50px;
+    }
+    .ourMap .Zag{
+        margin: 0 auto;
+    }
+    .tovar_configuration{
+        margin-left: 3vw;
+    }
+    .fotorama__video iframe{
+        min-height: 25vw;
+        max-width: 100vw;
+        min-width: 20vw;
+        margin-top: 1vw;
+    }
+    .buttons_of_check{
+        max-width: 75vw;
+        gap: 30px;
+        margin: 8vw auto;
+    }
+    .buttons_of_check a{
+        letter-spacing: 0px;
+        font-size: 20px;
+    }
+    .frst{
+        max-width: 40vw;
+    }
+    #kadr{
+        font-size: 18px;
+        max-width: 13vw;
+    }
+    .kolvo{
+        margin: 0 auto;
+        background-color: #FF9C38;
+        width: 40vw;
+        height: 55px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4em;
+    }
+    .kolvo a{
+        color: black;
+        font-size: 24px;
+        font-weight: bold;
+        background-color: #FF9C38;
+        text-decoration: none;
+    }
+    .aboutUs{
+        width: 30vw;
+    }
+    .aboutUs .Zag{
+        align-self: center;
+    }
+    .worktime{
+        width: 30vw;
+    }
+    .worktime .Zag{
+        margin: 0 auto;
+    }
+    iframe{
+        margin: 0  auto;
+        max-width: 40vw;
+    }
+    .container-foot{
+        margin-top: -1vw;
+        padding-top: 3vw;
+    }
+    .fotorama .fotorama1670142826334{
+        min-width: 320px;
+    }
+    #tempid{
+        height: fit-content;
+    }
+    .developer2{
+        border: 1px solid white;
+        background-color: #333333;
+        color: white;
+        width: 70%;
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: bold;
+        max-height: 30vw;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+    }
+    .developer2 p{
+        background-color: #333333;
+        padding-left: 2em;
+        padding-right: 2em;
+        letter-spacing: 1px;
+    }
+  }
+  @media screen and (max-device-width: 600px) {
+    .worktime{
+        width: 40vw;
+    }
+    .aboutUs{
+        width: 40vw;
+    }
+    .Zag{
+        align-self: center;
+    }
+    .fotorama__video iframe{
+        min-height: 50vw;
+        max-width: 100vw;
+        min-width: 20vw;
+        margin-top: 13vw;
+    }
+    .aboutUs span{
+        font-size: 16px;
+    }
+    #kadr{
+        font-size: 18px;
+        max-width: 20vw;
+    }
+    .aboutUs .Zag{
+        font-size: 24px;
+    }
+  }
+  @media screen and (max-device-width: 768px) {
+    .foot{
+        margin-top: 7em;
+    }
+    .cart{
+        width: 35vw;
+        font-size: 20px;
+    }
+    .content-modal{
+        width: 60%;
+    }
+    .fotorama__video iframe{
+        min-height: 40vw;
+        max-width: 100vw;
+        min-width: 20vw;
+        margin-top: 7vw;
+    }
+    .tovar_configuration{
+        margin-left: 0;
+    }
+    .kolvo{
+        margin: 0 auto;
+        background-color: #FF9C38;
+        height: 55px;
+        width: 60vw;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4em;
+    }
+    .kolvo a{
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #FF9C38;
+        text-decoration: none;
+    }
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-table{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        color: aliceblue;
+        margin-top: 5vw;
+    }
+    .tableOfCharacterics{
+        border: 1px solid white;
+        max-width: 1180px;
+    }
+    .tabl{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        width: 80%;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .element{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid white;
+        height: 10vw;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .frst{
+        max-width: 45vw;
+    }
+    #kadr{
+        font-size: 14px;
+    }
+    .zag{
+        height: 10vw;
+    }
+    .developer{
+        width: 80vw;
+        font-size: 14px;
+        letter-spacing: 0px;
+        min-height: 10vw;
+        height: fit-content;
+        max-height: 20vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    .developer2{
+        border: 1px solid white;
+        background-color: #333333;
+        color: white;
+        width: 80vw;
+        margin: 0 auto;
+        font-size: 14px;
+        font-weight: bold;
+        max-height: 30vw;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+        min-height: 10vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+    }
+    .buttons_of_check{
+        max-width: 70vw;
+        gap: 30px;
+        margin: 3em auto;
+        flex-wrap: wrap;
+    }
+    .buttons_of_check a{
+        font-size: 16px;
+        letter-spacing: 0px;
+    }
+    .nameOfTovar p{
+        text-align: center;
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    #hum_menu{
+        display: none;
+    }
+    footer{
+        height: auto;
+    }
+    .main-container{
+        width: 90vw;
+        gap: 10vw;
+    }
+  }
+  @media screen and (max-device-width: 425px) {
+    .nameOfTovar p{
+        font-size: 36px;
+    }
+    .tovar_photo img{
+        width: 40vw;
+        height: 45vw;
+        justify-self: center;
+    }
+    .content-modal{
+        width: 70%;
+    }
+    .kolvo{
+        margin: 0 auto;
+        background-color: #FF9C38;
+        width: 80vw;
+        height: 35px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 4em;
+    }
+    .kolvo a{
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        background-color: #FF9C38;
+        text-decoration: none;
+    }
+    .developer{
+        width: 80vw;
+        font-size: 14px;
+        letter-spacing: 0px;
+        min-height: 10vw;
+        height: fit-content;
+        max-height: 35vw;
+        padding-top: 0.5vw;
+        padding-bottom: 0.5vw;
+        margin-top: 52vw;
+    }
+    .developer p{
+        padding-left: 3vw;
+        padding-right: 3vw;
+        font-size: 13px;
+    }
+    #tempid{
+        max-height: 40vw;
+        margin-top: 10vw;
+    }
+    .developer2{
+        border: 1px solid white;
+        background-color: #333333;
+        color: white;
+        width: 80vw;
+        margin: 0 auto;
+        font-size: 13px;
+        font-weight: bold;
+        min-height: 10vw;
+        max-height: 60vw;
+        height: fit-content;
+        display: flex;
+        align-items: center;
+        margin-top: 1em;
+        min-height: 10vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+
+    }
+    
+    .developer2 p{
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .cart{
+        margin: 0;
+        width: 52vw;
+        font-size: 20px;
+    }
+    .main-container{
+        max-width: 80%;
+    }
+    .tovar_photo{
+        max-width: 100%;
+    }
+    .tovar_configuration{
+        width: 80vw;
+    }
+    .cost{
+        font-size: 28px;
+    }
+    .name_ozu, .name_pzu, .name_color{
+        font-size: 20px;
+    }
+    .buttons_ozu, .buttons_pzu, .buttons_color{
+        gap: 15px;
+    }
+    .buttons_of_check{
+        max-width: 50vw;
+        gap: 10vw;
+        margin: 15vw auto;
+        flex-wrap: wrap;
+    }
+    .buttons_of_check a{
+        font-size: 14px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .tabl{
+        width: 85vw;
+        height: 3vw;
+        font-size: 14px;
+    }
+    .fotorama{
+        max-width: 95%;
+    }
+    .main-foot{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .aboutUs{
+        width: 70vw;
+    }
+    .Zag{
+        margin: 0 auto;
+    }
+    .container-table{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        color: aliceblue;
+        margin-top: 10vw;
+        margin-bottom: 15vw;
+    }
+    .container-table:nth-child(2){
+        margin-top: 70vw;
+    }
+    .container-table:nth-child(3){
+        margin-top: 85vw;
+    }
+    .container-table:nth-child(4){
+        margin-top: 55vw;
+    }
+    .container-table:nth-child(5){
+        margin-top: 40vw;
+        margin-bottom: 60vw;
+    }
+    .tableOfCharacterics{
+        border: 1px solid white;
+        max-width: 1180px;
+    }
+    .tabl{
+        display: flex;
+        flex-direction: column;
+        border: 1px solid white;
+        width: 80%;
+        min-height: 7vw;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .element{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid white;
+        min-height: 15vw;
+        min-width: 90%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .element p{
+        background-color: none;
+    }
+    .frst{
+        max-width: 45vw;
+    }
+    #kadr{
+        font-size: 13px;
+        text-align: center;
+    }
+    .zag{
+        min-height: 7vw;
+        min-width: 90%;
+    }
+    .worktime{
+        width: 70vw;
+    }
+    .container-foot{
+        margin-top: 7vw;
+        padding-bottom: 7vw;
+    }
+    .fotorama__video iframe{
+        margin-top: 7vw;
+    }
+  }
+  @media screen and (max-device-width: 375px) {
+    .main-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .frst{
+        max-width: 49vw;
+    }
+    #kadr{
+        font-size: 12px;
+        text-align: end;
+        max-width: 25vw;
+    }
+    .container-table{
+        max-width: 100vw;
+    }
+    .element{
+        min-width: 73vw;
+        padding-right: 2vw;
+    }
+
+    .tabl{
+        max-width: 80vw;
+        max-height: 7vw;
+        font-size: 13px;
+    }
+  }
